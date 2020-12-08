@@ -1,0 +1,65 @@
+body{
+	
+	background-image: url("images/2000NOBORDER.png");
+	background-size: 100%;
+	background-position: center;
+	background-repeat: repeat;
+	padding: 0;
+	margin: 0;
+	min-height: 100vh;
+	flex-direction: column;
+	display: flex;
+}
+#Header{
+	border-color: black;
+	border: 2px solid;
+	background-color: darkgreen;
+	position: fixed;
+	right: 0;
+	left: 0;
+	top: 0;
+	margin: 0 auto;
+	text-align: center;
+	
+}
+#Body{
+	
+	flex: 1 0 auto;
+	border-color: black;
+	border: 1px solid;
+	background-color: lightgreen;
+	margin: 0 auto;
+	height: 500px;
+	margin-bottom: 25px;
+	margin-top: 100px;
+	margin-left: center;
+	width: 50%;
+	
+
+}
+#LeftIndex{
+	background-color: darkgreen;
+	height: 70.5%;
+	position: fixed;
+	z-index: 1;
+	top: 100px;
+	left: 0;
+	width: 75px;
+	overflow-x: hidden;
+	text-align: center;
+
+}
+
+#Footer{
+	flex-shrink: 0;
+	height: 50px;
+	margin-top: 50px;
+	
+	margin-bottom: 0px;
+	border-color: black;
+	border: 2px solid;
+	background-color: darkgreen;
+	
+	
+
+}

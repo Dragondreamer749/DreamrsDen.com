@@ -1,0 +1,35 @@
+.list{
+	
+	
+	background-color: #00ff01;
+	margin: 0 auto;
+	width: 500px;
+	height: 500px;
+	border: 10px solid;
+	border-color: #989898;
+	padding-top: 50px;
+	text-align: center;
+	font-size: 50px; 
+}
+
+header{
+	padding-top: 2px;
+	background-color: white;
+	text-align: center;
+	height: 150px;
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	color: #00ff01;
+	font-family: DragonDreamer, "Time New Roman";
+	font-size: 50px;
+	border: 10px solid;
+	border-color: #989898;
+	
+}
+
+body{
+
+	background-color: black;
+}
