@@ -51,13 +51,15 @@ body{
 	width: 75px;
 	overflow-x: hidden;
 	text-align: center;
+	border: 10px solid;
+	border-color: black;
 
 }
 
 #Footer{
 	flex-shrink: 0;
 	height: 50px;
-	margin-top: 50px;
+	
 	
 	margin-bottom: 0px;
 	border-color: black;
@@ -67,3 +69,10 @@ body{
 	
 
 }
+
+a:link, a:visited {
+  background-color: lightgreen;
+  color: black;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
