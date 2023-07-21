@@ -3,7 +3,8 @@
 }
 body{
 	
-	background-image: url("../images/2000NOBORDER.png");
+	/*background-image: url("../images/2000NOBORDER.png");*/
+	background-color: #272766;
 	background-size: 100%;
 	background-position: center;
 	background-repeat: repeat;
@@ -13,6 +14,7 @@ body{
 	flex-direction: column;
 	display: flex;
 }
+
 #Header{
 	border-color: black;
 	border: 2px solid;
@@ -20,7 +22,7 @@ body{
 	position: fixed;
 	right: 0;
 	left: 0;
-	top: 0;
+	top: 50px;
 	margin: 0 auto;
 	text-align: center;
 	
