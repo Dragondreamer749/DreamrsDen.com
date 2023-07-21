@@ -1,7 +1,25 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
 .spacer{
 	height: 50px;
 }
 .Header_Menu{
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr 1fr;	
+}
+.Social_Menu{
 	display: grid;
 	grid-template-rows: 1fr;
 	grid-template-columns: 1fr 1fr 1fr;
@@ -51,7 +69,7 @@ body{
 
 #Header{
 	border-radius: 50px;
-	border-color: black;
+	
 	font-weight: 900;
 	background-color: #6E1BB1;
 	position: relative;
@@ -68,7 +86,8 @@ body{
 #Body{
 	color: #00F301;
 	flex: 1 0 auto;
-
+	padding-top: 50px;
+	padding-bottom: 50px;
 	background-color: #6E1BB1;
 	border-radius: 50px;
 	/*background-color: #23CE6B;*/
@@ -82,20 +101,7 @@ body{
 	
 
 }
-#LeftIndex{
-	background-color: #00F301;
-	height: 70.5%;
-	position: fixed;
-	z-index: 1;
-	top: 100px;
-	left: 0;
-	width: 75px;
-	overflow-x: hidden;
-	text-align: center;
-	border: 10px solid;
-	border-color: black;
 
-}
 
 #Footer{
 	flex-shrink: 0;
@@ -103,7 +109,7 @@ body{
 	color: white;
 	
 	margin-bottom: 0px;
-	border-color: black;
+	
 	
 	
 	text-align: center;
@@ -116,4 +122,67 @@ a:link, a:visited {
   color: #00F301;
   padding: 5px 5px;
   text-align: center;
-  text-decoration: none;
+  text-decoration: none;}
+  
+  
+   @media only screen and (max-width: 900px) {
+	  #Logo{
+			
+			width: 250px;;
+			height: 200px;
+		}
+		#Body{
+			
+			font-size: 80%;	
+			
+			
+		}
+	  }
+   @media only screen and (max-width: 700px) {
+	   	#Logo{
+			
+			width: 200px;;
+			height: 150px;
+		}
+	   }
+  @media only screen and (max-width: 600px) {
+	   	#Logo{
+			
+			width: 110px;;
+			height: 100px;
+		}
+		.Social_Menu{
+			display: grid;
+			grid-template-rows: 1fr 1fr 1fr;
+			grid-template-columns: 1fr;
+			
+			
+		}
+		.Body_Content{
+			margin: 0 auto;
+			
+		}
+		#Header{
+			
+			
+			font-weight: 900;
+			
+			position: relative;
+			right: 0;
+			left: 0;
+			top: 50px;
+			padding-left:25px;
+			padding-right:25px;
+			margin: 0 auto;
+			
+			width: 80%;
+			
+			
+		}
+	   }
+  
+ 
+  
+  
+ 
+  
