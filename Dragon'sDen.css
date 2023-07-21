@@ -1,10 +1,26 @@
 .spacer{
 	height: 50px;
 }
-body{
+.Header_Menu{
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
 	
+	
+}
+@font-face {
+font-family: "CustomFont";
+src: url("DRAGONDREAMRColors\ .ttf");
+
+}
+.Body_Content{
+	margin: 50px;
+	
+}
+body{
+	font-family: 'CustomFont';
 	/*background-image: url("../images/2000NOBORDER.png");*/
-	background-color: #272766;
+	background-color: #390e5c;
 	background-size: 100%;
 	background-position: center;
 	background-repeat: repeat;
@@ -16,23 +32,27 @@ body{
 }
 
 #Header{
+	border-radius: 50px;
 	border-color: black;
-	border: 2px solid;
-	background-color: darkgreen;
-	position: fixed;
+	font-weight: 900;
+	background-color: #6E1BB1;
+	position: relative;
 	right: 0;
 	left: 0;
 	top: 50px;
 	margin: 0 auto;
 	text-align: center;
+	width: 80%;
+	color: #00F301;
 	
 }
 #Body{
-	
+	color: #00F301;
 	flex: 1 0 auto;
-	border-color: black;
-	border: 1px solid;
-	background-color: lightgreen;
+
+	background-color: #6E1BB1;
+	border-radius: 50px;
+	/*background-color: #23CE6B;*/
 	margin: 0 auto;
 	height: auto;
 	min-height: 500px;
@@ -44,7 +64,7 @@ body{
 
 }
 #LeftIndex{
-	background-color: darkgreen;
+	background-color: #00F301;
 	height: 70.5%;
 	position: fixed;
 	z-index: 1;
@@ -61,20 +81,20 @@ body{
 #Footer{
 	flex-shrink: 0;
 	height: 50px;
-	
+	color: white;
 	
 	margin-bottom: 0px;
 	border-color: black;
-	border: 2px solid;
-	background-color: darkgreen;
+	
+	
 	text-align: center;
 	
 
 }
 
 a:link, a:visited {
-  background-color: lightgreen;
-  color: black;
+  
+  color: #00F301;
   padding: 5px 5px;
   text-align: center;
   text-decoration: none;
