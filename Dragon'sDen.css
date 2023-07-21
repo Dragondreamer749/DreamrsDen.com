@@ -17,6 +17,16 @@ src: url("DRAGONDREAMRColors\ .ttf");
 	margin: 50px;
 	
 }
+.Social_Icon{
+	font-size: 50px;
+	
+}
+#Logo{
+	display: block;
+	margin: auto;
+	width: 350px;;
+	height: 300px;
+}
 body{
 	font-family: 'CustomFont';
 	/*background-image: url("../images/2000NOBORDER.png");*/
@@ -40,6 +50,7 @@ body{
 	right: 0;
 	left: 0;
 	top: 50px;
+	
 	margin: 0 auto;
 	text-align: center;
 	width: 80%;
