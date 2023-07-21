@@ -27,6 +27,13 @@ src: url("DRAGONDREAMRColors\ .ttf");
 	width: 350px;;
 	height: 300px;
 }
+#Projects_Menu{
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+	
+	
+}
 body{
 	font-family: 'CustomFont';
 	/*background-image: url("../images/2000NOBORDER.png");*/
